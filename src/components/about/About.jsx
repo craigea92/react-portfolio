@@ -21,7 +21,7 @@ const About = () => {
         </div>
 
         <div className="about__content">
-          <div className="about_cards">
+          <div className="about__cards">
             <article className="about__card">
               <AiOutlineLaptop className="about__icon" />
               <h5>Experience</h5>
@@ -37,7 +37,7 @@ const About = () => {
               <h5>Projects</h5>
               <h6>30+ Completed Projects</h6>
             </article>
-
+            </div>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
               corporis veniam ipsam mollitia similique alias expedita nam a
@@ -48,7 +48,7 @@ const About = () => {
             <a href="#contact" className="btn btn-primary">
               Let's Talk
             </a>
-          </div>
+          
         </div>
       </div>
     </section>
