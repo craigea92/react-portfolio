@@ -13,35 +13,35 @@ const Experience = () => {
           <h3>Frontend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <AiOutlineCheckCircle />
+              <AiOutlineCheckCircle className="experience__details__icon" />
               <div>
                 <h4>JavaScript</h4>
                 <h6 className="text-light">Intermediate</h6>
               </div>
             </article>
             <article className="experience__details">
-              <AiOutlineCheckCircle />
+              <AiOutlineCheckCircle className="experience__details__icon" />
               <div>
                 <h4>TypeScript</h4>
                 <h6 className="text-light">Beginner</h6>
               </div>
             </article>
             <article className="experience__details">
-              <AiOutlineCheckCircle />
+              <AiOutlineCheckCircle className="experience__details__icon" />
               <div>
                 <h4>React</h4>
                 <h6 className="text-light">Intermediate</h6>
               </div>
             </article>
             <article className="experience__details">
-              <AiOutlineCheckCircle />
+              <AiOutlineCheckCircle className="experience__details__icon" />
               <div>
                 <h4>HTML</h4>
                 <h6 className="text-light">Intermediate</h6>
               </div>
             </article>
             <article className="experience__details">
-              <AiOutlineCheckCircle />
+              <AiOutlineCheckCircle className="experience__details__icon" />
               <div>
                 <h4>CSS</h4>
                 <h6 className="text-light">Intermediate</h6>
@@ -53,35 +53,35 @@ const Experience = () => {
           <h3>Backend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <AiOutlineCheckCircle />
+              <AiOutlineCheckCircle className="experience__details__icon" />
               <div>
                 <h4>Node JS</h4>
                 <h6 className="text-light">Intermediate</h6>
               </div>
             </article>
             <article className="experience__details">
-              <AiOutlineCheckCircle />
+              <AiOutlineCheckCircle className="experience__details__icon" />
               <div>
                 <h4>MongoDB</h4>
                 <h6 className="text-light">Beginner</h6>
               </div>
             </article>
             <article className="experience__details">
-              <AiOutlineCheckCircle />
+              <AiOutlineCheckCircle className="experience__details__icon" />
               <div>
                 <h4>PHP</h4>
                 <h6 className="text-light">Intermediate</h6>
               </div>
             </article>
             <article className="experience__details">
-              <AiOutlineCheckCircle />
+              <AiOutlineCheckCircle className="experience__details__icon" />
               <div>
                 <h4>MySQL</h4>
                 <h6 className="text-light">Intermediate</h6>
               </div>
             </article>
             <article className="experience__details">
-              <AiOutlineCheckCircle />
+              <AiOutlineCheckCircle className="experience__details__icon" />
               <div>
                 <h4>Python</h4>
                 <h6 className="text-light">Intermediate</h6>
