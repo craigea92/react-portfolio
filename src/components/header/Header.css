@@ -52,19 +52,20 @@ header {
 }
 
 /* ===== MEDIA QUERIES (TABLET) ===== */
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
   header {
-    height: 68vh;
+    height: 90vh;
   }
 }
 
 /* ===== MEDIA QUERIES (MOBILE) ===== */
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
   header {
-    height: 100vh;
+    height: 90vh;
   }
 
-  .header__socials, .scroll__down { 
+  .header__socials,
+  .scroll__down {
     display: none;
   }
 }
