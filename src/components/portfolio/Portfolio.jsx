@@ -10,6 +10,41 @@ const data = [
     github: "https://github.com/craigea92/pokedex-app",
     demo: "",
   },
+  {
+    id: 2,
+    image: aboutimage,
+    title: "An Emojipedia App",
+    github: "https://github.com/craigea92/emojipedia-app",
+    demo: "",
+  },
+  {
+    id: 3,
+    image: aboutimage,
+    title: "The Keeper App",
+    github: "https://github.com/craigea92/the-keeper-app",
+    demo: "",
+  },
+  {
+    id: 4,
+    image: aboutimage,
+    title: "An Expenses App",
+    github: "https://github.com/craigea92/expenses-app",
+    demo: "",
+  },
+  {
+    id: 5,
+    image: aboutimage,
+    title: "A Contacts App",
+    github: "https://github.com/craigea92/contacts-app",
+    demo: "",
+  },
+  {
+    id: 6,
+    image: aboutimage,
+    title: "A Login Portal App",
+    github: "https://github.com/craigea92/a-login-portal",
+    demo: "",
+  },
 ];
 
 const Portfolio = () => {
