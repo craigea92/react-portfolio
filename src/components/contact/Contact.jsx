@@ -50,7 +50,8 @@ const Contact = () => {
           <textarea
             name="message"
             rows="7"
-            placeholder="Your Message required"
+            placeholder="Your Message"
+            required
           ></textarea>
           <button type="submit" className="btn btn-primary">
             Send Message
