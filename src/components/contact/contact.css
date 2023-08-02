@@ -1,7 +1,7 @@
 .container.contact__container {
   width: 58%;
   display: grid;
-  grid-template-columns: 30% 58%;
+  grid-template-columns: 35% 55%;
   gap: 12%;
 }
 
@@ -48,7 +48,8 @@ form {
   color: var(--color-light);
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 1.5rem;
   border-radius: 0.5rem;
@@ -57,4 +58,19 @@ input, textarea {
   resize: none;
   color: var(--color-white);
   font-family: "Poppins", sans-serif;
+}
+
+/* ===== MEDIA QUERIES (TABLET) ===== */
+@media screen and (max-width: 1024px) {
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+/* ===== MEDIA QUERIES (MOBILE) ===== */
+@media screen and (max-width: 600px) {
+  .container.contact__container {
+    width: var(--container-width-sm);
+  }
 }
