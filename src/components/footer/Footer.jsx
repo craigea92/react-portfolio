@@ -18,7 +18,11 @@ const Footer = () => {
       <li><a href="#contact">Contact</a></li>
     </ul>
 
-    <FooterSocials className=""/>
+    <FooterSocials/>
+
+    <div className="footer__copyright">
+      <h6>&copy; CRAIG EATON. All rights reserved</h6>
+    </div>
   </footer>;
 };
 
