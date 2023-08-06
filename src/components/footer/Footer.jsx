@@ -7,7 +7,6 @@ import FooterSocials from "./FooterSocials";
 
 const Footer = () => {
   return <footer>
-    <a href="#" className="footer__logo">CRAIG</a>
 
     <ul className="permalinks">
       <li><a href="#">Home</a></li>

@@ -13,3 +13,12 @@ footer {
   gap: 2rem;
   margin: 0 auto 3rem;
 }
+
+/* ===== SOCIALS ===== */
+.footer__socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  font-size: 1.2rem;
+}
