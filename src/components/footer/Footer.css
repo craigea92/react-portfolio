@@ -22,3 +22,20 @@ footer {
   margin-bottom: 3rem;
   font-size: 1.2rem;
 }
+
+/* ===== MEDIA QUERIES (TABLET) ===== */
+@media screen and (max-width: 1024px) {
+
+}
+
+/* ===== MEDIA QUERIES (MOBILE) ===== */
+@media screen and (max-width: 600px) {
+  .permalinks {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .footer__socials {
+    margin-top: ;
+  }
+}
