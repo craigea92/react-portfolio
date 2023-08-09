@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import privateInfo from "../../apiKey";
 import "./contact.css";
 import {
   AiOutlineMail,
@@ -7,6 +9,30 @@ import {
 } from "react-icons/ai";
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        privateInfo.serviceId,
+        privateInfo.templateId,
+        form.current,
+        privateInfo.userId
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+
+    e.target.reset();
+  };
+
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
@@ -39,7 +65,7 @@ const Contact = () => {
             <a href="https://www.dummylinkedin.com">Send a message</a>
           </article>
         </div>
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="name"
