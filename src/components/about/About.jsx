@@ -25,30 +25,30 @@ const About = () => {
             <article className="about__card">
               <AiOutlineLaptop className="about__icon" />
               <h5>Experience</h5>
-              <h6>3+ Years Working</h6>
+              <h6>2+ Years Working</h6>
             </article>
             <article className="about__card">
               <AiOutlineTeam className="about__icon" />
               <h5>Companies</h5>
-              <h6>3+ Years Working</h6>
+              <h6>5+ Years Working</h6>
             </article>
             <article className="about__card">
               <AiOutlineFolderOpen className="about__icon" />
               <h5>Projects</h5>
               <h6>30+ Completed Projects</h6>
             </article>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-              corporis veniam ipsam mollitia similique alias expedita nam a
-              blanditiis cumque nihil, perspiciatis exercitationem, officiis
-              optio necessitatibus laborum doloribus. Sit, impedit?
-            </p>
+          </div>
+          <p>
+            A highly motivated and hard-working junior software developer with a
+            passion for creating intuitive and functional websites/web
+            applications. Proficient in JavaScript, Typescript, React and
+            Playwright, with a strong understanding of design patterns and
+            software architecture.
+          </p>
 
-            <a href="#contact" className="btn btn-primary">
-              Let's Talk
-            </a>
-          
+          <a href="#contact" className="btn btn-primary">
+            Chat Now
+          </a>
         </div>
       </div>
     </section>
