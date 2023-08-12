@@ -1,46 +1,52 @@
 import React from "react";
 import "./portfolio.css";
 import aboutimage from "../../assets/About_Image.jpeg";
+import pokedeximage from "../../assets/Pokedex_Image.png";
+import emojipediaimage from "../../assets/Emojipedia_Image.png";
+import keeperimage from "../../assets/Keeper_Image.png";
+import expensesimage from "../../assets/Expenses_Image.png";
+import contactsimage from "../../assets/Contacts_Image.png";
+import loginimage from "../../assets/LoginPortal_Image.png";
 
 const data = [
   {
     id: 1,
-    image: aboutimage,
+    image: pokedeximage,
     title: "The Pokedex App",
     github: "https://github.com/craigea92/pokedex-app",
     demo: "",
   },
   {
     id: 2,
-    image: aboutimage,
-    title: "An Emojipedia App",
-    github: "https://github.com/craigea92/emojipedia-app",
-    demo: "",
-  },
-  {
-    id: 3,
-    image: aboutimage,
+    image: keeperimage,
     title: "The Keeper App",
     github: "https://github.com/craigea92/the-keeper-app",
     demo: "",
   },
   {
+    id: 3,
+    image: emojipediaimage,
+    title: "An Emojipedia App",
+    github: "https://github.com/craigea92/emojipedia-app",
+    demo: "",
+  },
+  {
     id: 4,
-    image: aboutimage,
+    image: expensesimage,
     title: "An Expenses App",
     github: "https://github.com/craigea92/expenses-app",
     demo: "",
   },
   {
     id: 5,
-    image: aboutimage,
+    image: contactsimage,
     title: "A Contacts App",
     github: "https://github.com/craigea92/contacts-app",
     demo: "",
   },
   {
     id: 6,
-    image: aboutimage,
+    image: loginimage,
     title: "A Login Portal App",
     github: "https://github.com/craigea92/a-login-portal",
     demo: "",
