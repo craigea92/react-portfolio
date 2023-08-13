@@ -12,19 +12,19 @@ import "swiper/css/pagination";
 
 const data = [
   {
-    name: "John Snow",
+    name: "Klaudia J.",
     review:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis",
+    "Your attention to detail and dedication to delivering high-quality code is truly impressive.",
   },
   {
-    name: "John Snow",
+    name: "Sam W.",
     review:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis",
+      "It's a pleasure to work alongside someone who consistently goes the extra mile for their colleagues.",
   },
   {
-    name: "John Snow",
+    name: "Joel B.",
     review:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis",
+      "Your positive attitude and willingness to collaborate makes our work environment so much better.",
   },
 ];
 
