@@ -29,6 +29,13 @@ const Experience = () => {
             <article className="experience__details">
               <AiOutlineCheckCircle className="experience__details__icon" />
               <div>
+                <h4>Ruby</h4>
+                <h6 className="text-light">Beginner</h6>
+              </div>
+            </article>
+            <article className="experience__details">
+              <AiOutlineCheckCircle className="experience__details__icon" />
+              <div>
                 <h4>React</h4>
                 <h6 className="text-light">Intermediate</h6>
               </div>
@@ -56,7 +63,7 @@ const Experience = () => {
               <AiOutlineCheckCircle className="experience__details__icon" />
               <div>
                 <h4>Node JS</h4>
-                <h6 className="text-light">Intermediate</h6>
+                <h6 className="text-light">Beginner</h6>
               </div>
             </article>
             <article className="experience__details">
@@ -70,21 +77,21 @@ const Experience = () => {
               <AiOutlineCheckCircle className="experience__details__icon" />
               <div>
                 <h4>PHP</h4>
-                <h6 className="text-light">Intermediate</h6>
+                <h6 className="text-light">Beginner</h6>
               </div>
             </article>
             <article className="experience__details">
               <AiOutlineCheckCircle className="experience__details__icon" />
               <div>
                 <h4>MySQL</h4>
-                <h6 className="text-light">Intermediate</h6>
+                <h6 className="text-light">Beginner</h6>
               </div>
             </article>
             <article className="experience__details">
               <AiOutlineCheckCircle className="experience__details__icon" />
               <div>
                 <h4>Python</h4>
-                <h6 className="text-light">Intermediate</h6>
+                <h6 className="text-light">Beginner</h6>
               </div>
             </article>
           </div>
