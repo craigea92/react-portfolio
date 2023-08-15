@@ -1,6 +1,5 @@
 import React from "react";
 import "./portfolio.css";
-import aboutimage from "../../assets/About_Image.jpeg";
 import pokedeximage from "../../assets/Pokedex_Image.png";
 import emojipediaimage from "../../assets/Emojipedia_Image.png";
 import keeperimage from "../../assets/Keeper_Image.png";
