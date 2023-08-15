@@ -20,3 +20,4 @@ npm start
 ```
 
 ## Screenshot
+<img width="1676" alt="image" src="https://github.com/craigea92/react-portfolio/assets/82875984/bef5018d-a977-4d39-a297-fb4f7b7fe858">
